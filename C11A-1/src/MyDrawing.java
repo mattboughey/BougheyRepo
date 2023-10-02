@@ -6,6 +6,7 @@ import javax.swing.JPanel;
 
 public class MyDrawing extends JPanel {
 	private Cat cat;
+	private Mouse mouse;
 	public MyDrawing() 
 	{
 		// Add critters to the drawing
@@ -15,6 +16,7 @@ public class MyDrawing extends JPanel {
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
 		cat.draw(g, 50, 50);
+		mouse.draw(g, 100, 200);
 	}
 	
 	/**
