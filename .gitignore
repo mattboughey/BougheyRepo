@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 /.metadata/
+=======
+*.class
+.project
+.classpath
+.settings/
+.metadata
+>>>>>>> 3b017d38391f6d4b3f8f76d6cb7eb1d9f9129719
