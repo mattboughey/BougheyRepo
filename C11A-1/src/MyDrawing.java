@@ -11,6 +11,7 @@ public class MyDrawing extends JPanel {
 	{
 		// Add critters to the drawing
 		cat = new Cat();
+		mouse = new Mouse();
 	}
 	// paintComponent is called automatically when the frame needs
 	// to display (e.g., when the program starts)
