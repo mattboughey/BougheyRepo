@@ -3,9 +3,22 @@
 
 
 public class TheMotivator {
+	
+	
+	
+	
+	public void other() {
+		System.out.println("This should throw some errors hopefully");
+		feedback(35);
+		
+	}
+	
+	
+	
+	
 	public void feedback(int score) {
 		if (score == 100)
-			System.out.println("You're awesome");
+			System.out.println("Conflict");
 		
 		else if (score > 90)
 			System.out.println("That's great");
